@@ -1,6 +1,9 @@
-n1=int(input("enter n1 value"))
-n2=int(input("enter n2 value"))
-if n1>n2:
-    print("n1 is big")
-else:
-    print("n2 is big")
+a,b=1,2
+total=0
+print(a,end=" ")
+while (a<=4000000-1):
+    if a%2==0:
+        total +=a
+    a,b=b,a+b
+    print(a,end=" ")
+print("\n sum of prime numbers term in fibonacci series: ",total)
